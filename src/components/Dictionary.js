@@ -28,13 +28,13 @@ const Dictionary = () => {
         <input 
             type="text" 
             value={searchTerm} 
-            placeholder='Enter Word'
+            placeholder='Search for a word...'
             onChange={(e)=>setSearchTerm(e.target.value)}
             ></input>
             <button onClick={handleSearch}>
                 Search
             </button>
-            <p>Defination</p>
+            <p>Definition:</p>
             <p>{defination}</p>
     </div>
   )
