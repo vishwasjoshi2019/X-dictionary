@@ -1,5 +1,4 @@
 import React,{useState} from 'react'
-// import data from './data.js'
 
 const Dictionary = () => {
     const initialDictionary=[
